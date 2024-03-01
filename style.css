@@ -72,3 +72,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.video-title {
+}
+
+.video-channel-name,
+.metaldata {
+}
