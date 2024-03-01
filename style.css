@@ -21,7 +21,7 @@ body {
   border-top: 3px solid #ccc;
 }
 
-.video-section :first-child {
+.video-section:first-child {
   border-top: none;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .video-channel-name,
-.metaldata {
+.video-metadata {
   text-decoration: none;
   color: #555;
 }
