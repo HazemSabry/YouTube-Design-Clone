@@ -53,8 +53,6 @@ body {
 .header button:hover {
   background-color: #f0f0f0;
 }
-.search-btn {
-}
 
 .menu-icons {
   display: flex;
@@ -65,8 +63,11 @@ body {
   text-decoration: none;
 }
 
-.menu-icons > a > img {
+.menu-channel-icon {
+  border-radius: 50%;
+  height: 2rem;
   width: 2rem;
+  background-color: #aaa;
 }
 
 /*            Categories            */
