@@ -20,11 +20,20 @@ body {
 
 .category-section {
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
   overflow: hidden;
 }
 
 .category {
+  word-wrap: none;
+  white-space: nowrap;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #e7e7e7;
+  padding: 0.4rem 0.7rem;
+  font-size: inherit;
+  cursor: pointer;
+  transition: background-color 150ms;
 }
 
 .active {
