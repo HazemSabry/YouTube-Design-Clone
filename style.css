@@ -16,3 +16,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.thumbnail {
+  position: relative;
+  display: flex;
+}
