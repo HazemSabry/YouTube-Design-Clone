@@ -83,7 +83,10 @@ body {
 
 .video-channel-name,
 .metaldata {
+  text-decoration: none;
+  color: #555;
 }
 
 .video-channel-name {
+  margin-bottom: 0.1rem;
 }
