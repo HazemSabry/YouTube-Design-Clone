@@ -23,6 +23,14 @@ body {
 .search-btn {
 }
 
+.menu-icons > a {
+  text-decoration: none;
+}
+
+.menu-icons > a > img {
+  width: 2rem;
+}
+
 /*            Categories            */
 
 .categories {
