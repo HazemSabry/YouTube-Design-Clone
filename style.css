@@ -28,6 +28,7 @@ body {
 .video-container {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
 .thumbnail {
@@ -57,6 +58,7 @@ body {
 .video-bottom-section {
   display: flex;
   gap: 0.75rem;
+  align-items: flex-start;
 }
 
 .channel-icon {
