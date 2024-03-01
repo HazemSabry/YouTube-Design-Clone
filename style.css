@@ -40,7 +40,10 @@ body {
   background-color: #ddd;
 }
 
-.active {
+.category.active {
+  background-color: #606060;
+  color: white;
+  border-color: #eee;
 }
 
 /*            Videos            */
