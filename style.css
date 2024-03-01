@@ -29,12 +29,23 @@ body {
   display: flex;
   flex-grow: 1;
   margin: 0 8rem 0 16rem;
+  border: 1px solid #777;
+  border-radius: 25px;
+  padding: 0.4em;
+  overflow: hidden;
 }
 
 .search-input {
   width: 100%;
+  font-size: inherit;
+  border: none;
 }
 
+.header button {
+  width: 80px;
+  margin: -0.5rem;
+  cursor: pointer;
+}
 .search-btn {
 }
 
