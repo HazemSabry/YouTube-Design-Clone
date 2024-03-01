@@ -44,9 +44,21 @@ body {
 .header button {
   width: 80px;
   margin: -0.5rem;
+  background-color: #f8f8f8;
   cursor: pointer;
+  border: none;
+  border-left: 1px solid #777;
+}
+
+.header button:hover {
+  background-color: #f0f0f0;
 }
 .search-btn {
+}
+
+.menu-icons {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .menu-icons > a {
