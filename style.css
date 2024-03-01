@@ -21,6 +21,10 @@ body {
   border-top: 3px solid #ccc;
 }
 
+.video-section :first-child {
+  border-top: none;
+}
+
 .video-container {
   display: flex;
   flex-direction: column;
