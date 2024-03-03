@@ -32,6 +32,11 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.sidebar-category img {
+  width: 2rem;
 }
 
 /*            Header            */
