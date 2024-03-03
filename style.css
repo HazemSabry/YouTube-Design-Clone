@@ -41,6 +41,10 @@ body {
   padding-top: 0;
 }
 
+.sidebar-category-section:last-child {
+  border-bottom: none;
+}
+
 .sidebar-category {
   display: flex;
   align-items: center;
@@ -129,7 +133,13 @@ body {
 .category-section {
   display: flex;
   gap: 0.7rem;
-  overflow: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.categories-section::-webkit-scrollbar {
+  display: none;
 }
 
 .category {
