@@ -28,6 +28,12 @@ body {
   background-color: #f8f8f8;
 }
 
+.sidebar-category {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 /*            Header            */
 
 .header {
