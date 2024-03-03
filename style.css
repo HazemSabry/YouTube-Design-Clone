@@ -19,6 +19,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #f8f8f8;
+  z-index: 999;
 }
 
 .youtube-logo {
@@ -74,6 +78,10 @@ body {
 
 .categories {
   padding: 1rem 2rem;
+  position: sticky;
+  top: 4.1rem;
+  background-color: #f8f8f8;
+  z-index: 999;
 }
 
 .category-section {
